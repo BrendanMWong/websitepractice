@@ -1,3 +1,18 @@
 body {
-    background-color: aliceblue;
+    background-color: #f3f4f6;
+}
+
+img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.whitebox {
+    background-color: white;
+}
+
+p {
+    background-color: white;
 }

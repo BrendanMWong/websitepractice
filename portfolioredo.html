@@ -9,7 +9,7 @@
     <title>
         Brendan's Portfolio
     </title>
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
@@ -31,165 +31,198 @@
     </div>
     <div>
         <h1>Brendan's Portfolio</h1>
-        <p>
-            Hi, welcome to my personal website!
-            I'm Brendan Wong, a college student at California State University, Sacramento, who studies computer
-            science.
-            I believe in the "less is more" philosophy when it comes to programming.
-            Inspired by this mindset, I designed this site to be as clean and straightforward as possible.
-        </p>
-        <p>
-            Here, you'll discover more about me, the unique projects I've created, and the valuable skills I've gained
-            through my experiences.
-            I believe the best way to showcase my growth and knowledge in computer science is through my projects.
-            In each project, I provide insights into the development process, the challenges I overcame, and the
-            practical value of my work.
-        </p>
+        <div class="whitebox">
+            <p>
+                Hi, welcome to my personal website!
+                I'm Brendan Wong, a college student at California State University, Sacramento, who studies computer
+                science.
+                I believe in the "less is more" philosophy when it comes to programming.
+                Inspired by this mindset, I designed this site to be as clean and straightforward as possible.
+            </p>
+            <p>
+                Here, you'll discover more about me, the unique projects I've created, and the valuable skills I've
+                gained
+                through my experiences.
+                I believe the best way to showcase my growth and knowledge in computer science is through my projects.
+                In each project, I provide insights into the development process, the challenges I overcame, and the
+                practical value of my work.
+            </p>
+        </div>
     </div>
     <div>
         <h1>Hunger Games Simulator</h1>
-        <p>
-            I made a text- and image-based simulation that allows users to recreate the Hunger Games in their browser,
-            developed with HTML, CSS, and JavaScript as languages, React as a framework, and GitHub Pages for
-            deployment.
-            This began as a personal project, but I decided to update and publicise it so others could try it out.
-            It's original purpose was to entertain myself, but now others can join in on the fun.
-        </p>
-        <p class="noindent">
-            You can check out my project here:
-            <a href="https://cherroh.github.io/CrkHungerGames-Professional/" target="_blank">Cherrow's Hunger Games
-                Simulator</a> <br>
-            It is hosted on my second GitHub account. Cherrow is one of the usernames I use to stay anonymous online.
-        </p>
-        <p>
-            The Hunger Games is a popular trilogy of novels written by Suzanne Collins, where contestents (tributes)
-            fight in a large arena
-            full of treacherous terrain, until only one is left standing.
-            Inspiration for this project began while I was playing with a Hunger Game simulator hosted at
-            brantsteele.net.
-            It puts 24 tributes in an arena and they participate in randomized events, until a winner is chosen.
-            Here is a link to the original simulator created by the Brantsteele staff:
-            <a href="https://brantsteele.net/hungergames/reaping.php" target="_blank">Brantsteele's Hunger Games
-                Simulator</a>.
-            It's one of my favorite websites, but I didn't like how some features were designed:
-        <ul>
-            <li>Creating my own custom events that occur during the simulation is extremely difficult</li>
-            <li>Editing or removing preexisting events is cumbersome</li>
-            <li>Events that occur during the simulation don't impact future events at all</li>
-            <li>When tributes find items, it has absolutely no impact on the simulation</li>
-            <li>Tributes are always eliminated in one hit, making the simulation less interesting</li>
-            <li>I wish there was some sort of storyline for each simulation</li>
-            <li>Editing tributes can be confusing for new users</li>
-        </ul>
-        </p>
+        <div class="whitebox">
+            <p>
+                I made a text- and image-based simulation that allows users to recreate the Hunger Games in their
+                browser,
+                developed with HTML, CSS, and JavaScript as languages, React as a framework, and GitHub Pages for
+                deployment.
+                This began as a personal project, but I decided to update and publicise it so others could try it out.
+                It's original purpose was to entertain myself, but now others can join in on the fun.
+            </p>
+        </div>
+        <div class="whitebox">
+            <p class="noindent">
+                You can check out my project here:
+                <a href="https://cherroh.github.io/CrkHungerGames-Professional/" target="_blank">Cherrow's Hunger Games
+                    Simulator</a> <br>
+                It is hosted on my second GitHub account. Cherrow is one of the usernames I use to stay anonymous
+                online.
+            </p>
+        </div>
+        <div class="whitebox">
+            <p>
+                The Hunger Games is a popular trilogy of novels written by Suzanne Collins, where contestents (tributes)
+                fight in a large arena
+                full of treacherous terrain, until only one is left standing.
+                Inspiration for this project began while I was playing with a Hunger Game simulator hosted at
+                brantsteele.net.
+                It puts 24 tributes in an arena and they participate in randomized events, until a winner is chosen.
+                Here is a link to the original simulator created by the Brantsteele staff:
+                <a href="https://brantsteele.net/hungergames/reaping.php" target="_blank">Brantsteele's Hunger Games
+                    Simulator</a>.
+                It's one of my favorite websites, but I didn't like how some features were designed:
+            <ul>
+                <li>Creating my own custom events that occur during the simulation is extremely difficult</li>
+                <li>Editing or removing preexisting events is cumbersome</li>
+                <li>Events that occur during the simulation don't impact future events at all</li>
+                <li>When tributes find items, it has absolutely no impact on the simulation</li>
+                <li>Tributes are always eliminated in one hit, making the simulation less interesting</li>
+                <li>I wish there was some sort of storyline for each simulation</li>
+                <li>Editing tributes can be confusing for new users</li>
+            </ul>
+            </p>
+        </div>
         <p>
             To solve these problems, I decided to customize and expand their simulator by recreating it from scratch.
             Here is what the homepage looks like:
         </p>
         <img src="images/hungergameshomepage.png" alt="Hunger Games Simulator Screenshot 1">
-        <p>
-            24 tributes compete in the Hunger Games, with 2 characters in each of the 12 districts.
-            A common misconception is that tributes in the same districts are always teammates, but this isn't true
-            because there can only be one winner.
-            My simulator's appearance is similar to Brantsteele's style, but mine is a lot more simplistic.
-            The middle of the website displays every tribute's name and profile picture.
-            Users can edit these through the use of the white input boxes found at the bottom of the website.
-            Next to the input boxes, users can read a full tutorial on how to use my website, and how it works
-            internally.
-            Near the top left corner, there is a reset button.
-            When pressed, all tribute names and profile pictures are reset to the default ones I have provided.
-            Underneath the grid of tributes, there is a proceed button that begins the simulation.
-        </p>
-        <p>
-            Here is an example of what the simulation could look like:
-        </p>
+        <div class="whitebox">
+            <p>
+                24 tributes compete in the Hunger Games, with 2 characters in each of the 12 districts.
+                A common misconception is that tributes in the same districts are always teammates, but this isn't true
+                because there can only be one winner.
+                My simulator's appearance is similar to Brantsteele's style, but mine is a lot more simplistic.
+                The middle of the website displays every tribute's name and profile picture.
+                Users can edit these through the use of the white input boxes found at the bottom of the website.
+                Next to the input boxes, users can read a full tutorial on how to use my website, and how it works
+                internally.
+                Near the top left corner, there is a reset button.
+                When pressed, all tribute names and profile pictures are reset to the default ones I have provided.
+                Underneath the grid of tributes, there is a proceed button that begins the simulation.
+            </p>
+        </div>
+        <div class="whitebox">
+            <p>
+                Here is an example of what the simulation could look like:
+            </p>
+        </div>
         <img src="images/hungergamessimulation1.png" alt="Hunger Games Simulator Screenshot 2">
         <img src="images/hungergamessimulation2.png" alt="Hunger Games Simulator Screenshot 3">
-        <p>
-            Tributes participate in randomly chosen events until only one is left standing.
-            A tribute is eliminated when their health drops to 0.
-            Tributes have an attack stat, which determines how much health they can remove from others.
-            There are many different kinds of events, and most of them will change the outcomes of future events.
-            Some events that do nothing, increasing the randomness of the simulation.
-            Here are some examples:
-        <ul>
-            <li>Two tributes fight and one tribute hurts the other</li>
-            <li>A tribute finds a weapon, it increases their attack</li>
-            <li>A tribute finds supplies, it increases their health</li>
-            <li>One tribute steals from another's belongings, lowering the victim's damage</li>
-            <li>A tribute sleeps, and nothing happens</li>
-        </ul>
-        </p>
+        <div class="whitebox">
+            <p>
+                Tributes participate in randomly chosen events until only one is left standing.
+                A tribute is eliminated when their health drops to 0.
+                Tributes have an attack stat, which determines how much health they can remove from others.
+                There are many different kinds of events, and most of them will change the outcomes of future events.
+                Some events that do nothing, increasing the randomness of the simulation.
+                Here are some examples:
+            <ul>
+                <li>Two tributes fight and one tribute hurts the other</li>
+                <li>A tribute finds a weapon, it increases their attack</li>
+                <li>A tribute finds supplies, it increases their health</li>
+                <li>One tribute steals from another's belongings, lowering the victim's damage</li>
+                <li>A tribute sleeps, and nothing happens</li>
+            </ul>
+            </p>
+        </div>
         <h2>The Development Process</h2>
-        <p>
-            My website is not perfect, and there are many limitations.
-            I didn't want to spend money on hosting my website, so I learned how to deploy it for free on GitHub Pages.
-            However, GitHub Pages only hosts static websites for free, so I am unable to allow users to store their
-            custom tributes' information.
-            Users must recreate their custom tributes every time they reload or come back to my website.
-            In addition, users aren't able to create their own events, or edit the default ones.
-            Originally, I designed my website without the intentions of letting other people use it, so I have not
-            implemented the ability for
-            users to edit events without changing the source code.
-            In the future, I might add this feature.
-        </p>
-        <p>
-            I faced many challenges while developing this project.
-            One issue I faced was figuring out how to minimize violence without taking away from the user's experience.
-            The Hunger Game novels are violent, so it was difficult finding a balance between reducing violence and
-            recreating the conflict that makes the books popular.
-            In fact, I am only showcasing the second version of my simulation.
-            The first version is too violent, so I had to rewrite a large amount of code.
-            However, I wanted to keep the first version intact, and you can see it by clicking this link. Viewer
-            discretion advised:
-            <a href="https://cherroh.github.io/CrkHungerGames/" target="_blank">Cherrow's Hunger Games Version 1</a>.
-            Another issue I faced was concealing my identity online.
-            Projects hosted on Github Pages are open source, so anyone can read the source code and find who the author
-            is.
-            I shared my project with many strangers online, and I don't want my personal information to be known.
-            I decided to create multiple GitHub accounts to stay anonymous, although managing multiple accounts can get
-            complicated.
-        </p>
+        <div class="whitebox">
+            <p>
+                My website is not perfect, and there are many limitations.
+                I didn't want to spend money on hosting my website, so I learned how to deploy it for free on GitHub
+                Pages.
+                However, GitHub Pages only hosts static websites for free, so I am unable to allow users to store their
+                custom tributes' information.
+                Users must recreate their custom tributes every time they reload or come back to my website.
+                In addition, users aren't able to create their own events, or edit the default ones.
+                Originally, I designed my website without the intentions of letting other people use it, so I have not
+                implemented the ability for
+                users to edit events without changing the source code.
+                In the future, I might add this feature.
+            </p>
+            <p>
+                I faced many challenges while developing this project.
+                One issue I faced was figuring out how to minimize violence without taking away from the user's
+                experience.
+                The Hunger Game novels are violent, so it was difficult finding a balance between reducing violence and
+                recreating the conflict that makes the books popular.
+                In fact, I am only showcasing the second version of my simulation.
+                The first version is too violent, so I had to rewrite a large amount of code.
+                However, I wanted to keep the first version intact, and you can see it by clicking this link. Viewer
+                discretion advised:
+                <a href="https://cherroh.github.io/CrkHungerGames/" target="_blank">Cherrow's Hunger Games Version
+                    1</a>.
+                Another issue I faced was concealing my identity online.
+                Projects hosted on Github Pages are open source, so anyone can read the source code and find who the
+                author
+                is.
+                I shared my project with many strangers online, and I don't want my personal information to be known.
+                I decided to create multiple GitHub accounts to stay anonymous, although managing multiple accounts can
+                get
+                complicated.
+            </p>
+        </div>
         <h1>Useful Copper: A Minecraft Mod</h1>
-        <p>
-            I created a mod for the popular video game called "Minecraft", introducing
-            new gameplay features that extend and integrate with the existing codebase.
-            Minecraft is a sandbox game where players set their own goals in an infinite 3D world made of blocks.
-            Modding video games can be challenging, and Minecraft is no exception.
-            I make mods for Minecraft Java Edition, which is only availible on PCs.
-            The mod is written entirely in Java, as it is the primary programming language Minecraft runs on.
-            Not only does a mod developer need to know how to code in Java, but also needs to learn how Minecraft
-            works internally.
-        </p>
+        <div class="whitebox">
+            <p>
+                I created a mod for the popular video game called "Minecraft", introducing
+                new gameplay features that extend and integrate with the existing codebase.
+                Minecraft is a sandbox game where players set their own goals in an infinite 3D world made of blocks.
+                Modding video games can be challenging, and Minecraft is no exception.
+                I make mods for Minecraft Java Edition, which is only availible on PCs.
+                The mod is written entirely in Java, as it is the primary programming language Minecraft runs on.
+                Not only does a mod developer need to know how to code in Java, but also needs to learn how Minecraft
+                works internally.
+            </p>
+        </div>
         <img src="images/minecrafthome.png" alt="Minecraft">
-        <p>
-            In Minecraft, players can mine and collect copper ore.
-            Copper ore is common and can be smelted into copper ingots.
-            Copper is used to make building blocks and very few items like lightning rods and spyglasses.
-            However, many players think copper has a lot of missed potential.
-            The most common complaint is that copper is boring and you can't craft very many cool items with it,
-            like armor or tools.
-            Meanwhile, you can craft all sorts of fun items with iron ore, like armor, tools, anvils, railways, etc.
-            To address this problem, I decided to create a Minecraft mod which makes players want to mine as much
-            copper as possible to try new features I added to the game.
-        </p>
-        <p class="noindent">
-            You can check out the source code for my project here:
-            <a href="https://github.com/whatroyt/usefulcopper1.20.1" target="_blank">Useful Copper Repository</a>
-            <br>
-            It is saved on my third anonymous GitHub account.
-        </p>
-        <p class="noindent">
-            If you are a Minecraft player and know how to install mods, you can download the .jar file for my mod
-            from google drive.
-            Otherwise, you should ignore this google drive link and continue reading. My mod is for Minecraft Fabric
-            version 1.20.1.
-            <a href="https://github.com/whatroyt/usefulcopper1.20.1" target="_blank">Useful Copper Download</a> <br>
-        </p>
+        <div class="whitebox">
+            <p>
+                In Minecraft, players can mine and collect copper ore.
+                Copper ore is common and can be smelted into copper ingots.
+                Copper is used to make building blocks and very few items like lightning rods and spyglasses.
+                However, many players think copper has a lot of missed potential.
+                The most common complaint is that copper is boring and you can't craft very many cool items with it,
+                like armor or tools.
+                Meanwhile, you can craft all sorts of fun items with iron ore, like armor, tools, anvils, railways, etc.
+                To address this problem, I decided to create a Minecraft mod which makes players want to mine as much
+                copper as possible to try new features I added to the game.
+            </p>
+        </div>
+        <div class="whitebox">
+            <p class="noindent">
+                You can check out the source code for my project here:
+                <a href="https://github.com/whatroyt/usefulcopper1.20.1" target="_blank">Useful Copper Repository</a>
+                <br>
+                It is saved on my third anonymous GitHub account.
+            </p>
+            <p class="noindent">
+                If you are a Minecraft player and know how to install mods, you can download the .jar file for my mod
+                from google drive.
+                Otherwise, you should ignore this google drive link and continue reading. My mod is for Minecraft Fabric
+                version 1.20.1.
+                <a href="https://github.com/whatroyt/usefulcopper1.20.1" target="_blank">Useful Copper Download</a> <br>
+            </p>
+        </div>
+        <div class="whitebox">
         <p class="noindent">
             Here are the most notable features I have added:
         </p>
+    </div>
         <h2>Copper Armor</h2>
+        <div class="whitebox">
         <p>
             Many players wishs you could turn copper ingots into armor, especially since all other metallic ores can
             be turned into armor.
@@ -207,8 +240,10 @@
             and they wear netherite armor, which gives more protection than both copper and iron.
             From a gameplay perspective, I think my copper armor fits perfectly into Minecraft.
         </p>
+    </div>
         <img src="images/copperarmor.png" alt="Copper Armor">
         <h2>Copper Mace</h2>
+        <div class="whitebox">
         <p>
             In recent updates, Minecraft added the mace, a weapon that is too overpowered.
             A player can one shot any enemy by hitting them with the mace, if the user falls for a little while.
@@ -238,12 +273,14 @@
             The materials required to craft this item can't all be found in the early game because I think a newer
             player shouldn't have access to this weapon so soon.
         </p>
+    </div>
         <video controls loop>
             <source src="videos/coppermacevideo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <img src="images/coppermace.png" alt="Copper Mace">
         <h2>Copper Chainsaw</h2>
+        <div class="whitebox">
         <p>
             Many players wish copper tools were added to the game.
             However, there's already a lot of pickaxes, axes, shovels, and swords in the game, and I wanted to
@@ -263,19 +300,23 @@
             To make the item feel more polished, I added an animation to it whenever it is turned on.
             Pressing right click turns the item on and off.
         </p>
+    </div>
         <video controls loop>
             <source src="videos/copperchainsawvideo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <img src="images/copperchainsaw.png" alt="Copper Chainsaw">
         <h2>Other Items</h2>
+        <div class="whitebox">
         <p>
             I added copper nuggets to this mod.
             Copper ingots can be converted to copper nuggets, and vice versa.
             They are used for crafting recipes, but they don't do anything special.
             Iron and gold nuggets exist in vanilla Minecraft, so I think it makes sense to add copper nuggets.
         </p>
+    </div>
         <img src="images/coppernugget.png" alt="Copper Nugget">
+        <div class="whitebox">
         <p>
             I have also began working on some unfinished features that are not included in my useful copper mod yet,
             but I wanted to share them.
@@ -284,15 +325,18 @@
             This is the thunder blade, it prevents an enemy from moving for a decent period of time.
             However, the thunder blade deals very low damage.
         </p>
+    </div>
         <video controls loop>
             <source src="videos/thunderbladevideo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <div class="whitebox">
         <p>
             I have always wanted to design my own dimension in Minecraft.
             I created copper portal blocks that allow you to travel to my custom dimension.
             Someday, I may add custom dungeons and mobs to my dimension.
         </p>
+    </div>
         <img src="images/portal.png" alt="Portal">
         <h2>The Development Process</h2>
         <p>
