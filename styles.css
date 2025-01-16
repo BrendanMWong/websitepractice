@@ -11,8 +11,8 @@ img {
 
 .whitebox {
     background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 15px;
 }
 
-p {
-    background-color: white;
-}
