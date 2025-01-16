@@ -1,36 +1,47 @@
 * {
-  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
 }
 
 body {
-  background-color: #f3f4f6;
+  background-color: #0a0a0a;
+  color: #ffffff;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  font-family: Georgia, serif;
   font-size: 50px;
 }
 
 img {
   border-style: solid;
-  border-width: 3px;
-  border-color: black;
-  border-radius: 5px;
+  border-width: 0px;
+  border-color: #3f3f3f;
+  border-radius: 20px;
+}
+
+video {
+    border-style: solid;
+    border-width: 0px;
+    border-color: #3f3f3f;
+    border-radius: 20px;
 }
 
 .whitebox {
-  background-color: white;
+  background-color: #0a0a0a;
   padding: 10px 30px;
-  border-radius: 5px;
+  border-style: solid;
+  border-color: #3f3f3f;
+  border-width: 1px;
+  border-radius: 20px;
   margin: 15px;
   line-height: 1.2;
 }
 
 .whitebox p {
   text-indent: 50px;
+  color: #fcfcfc;
 }
 
 .whitebox p.noindent {
